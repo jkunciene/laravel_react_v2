@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Products from '../products/Products'
+import Orders from "../orders/Orders";
 //react.component jei virsuje neimpoirtuoju
 
 class Main extends Component{
@@ -27,6 +28,7 @@ class Main extends Component{
                     <div className="card container card-container">
                         <div className="card-header">
                             <Products products={this.state.allProducts}/>
+                            <Orders/>
                         </div>
 
                     </div>

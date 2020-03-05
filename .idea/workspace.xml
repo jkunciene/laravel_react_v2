@@ -2,59 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53563d4e-eb39-4700-837e-89aac6c3f508" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/app/App.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/main/Main.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/products/Products.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/skateboard_app.iml" afterPath="$PROJECT_DIR$/.idea/skateboard_app.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/orders/Orders.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ApiController.php" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ApiController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/database/migrations/2020_03_03_112056_create_orders_table.php" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/database/migrations/2020_03_03_112056_create_orders_table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/orders_management.blade.php" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/orders_management.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/routes/api.php" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/routes/api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/0c/0c1c82c6baa66d31530349331b1d25b7e283661a1b73608b63ccba2d8a06dacd.php" afterPath="$PROJECT_DIR$/db/tmp/twig/0c/0c1c82c6baa66d31530349331b1d25b7e283661a1b73608b63ccba2d8a06dacd.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/10/10c72c39cd02a58eb04dc88ef10c4fcf93166acb002a0925eb30db364c44f1d5.php" afterPath="$PROJECT_DIR$/db/tmp/twig/10/10c72c39cd02a58eb04dc88ef10c4fcf93166acb002a0925eb30db364c44f1d5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/1a/1a252bbb81ec9c047fc0ea8e9b6a10f55e0d33f37616988384644fef30a46c75.php" afterPath="$PROJECT_DIR$/db/tmp/twig/1a/1a252bbb81ec9c047fc0ea8e9b6a10f55e0d33f37616988384644fef30a46c75.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/1d/1da45e8aa0465bec769fff74cd812af91199a0218e000af0be9b94b44a56cc31.php" afterPath="$PROJECT_DIR$/db/tmp/twig/1d/1da45e8aa0465bec769fff74cd812af91199a0218e000af0be9b94b44a56cc31.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/1e/1e5091e3ea38f3865373f9410368164ddb6eb0834b3f9665a0c279d4a0f1f0ed.php" afterPath="$PROJECT_DIR$/db/tmp/twig/1e/1e5091e3ea38f3865373f9410368164ddb6eb0834b3f9665a0c279d4a0f1f0ed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/29/29b283ca019d81da48462fc3fc3b13df910d3a8f6c33ca9056cd61ce396783ff.php" afterPath="$PROJECT_DIR$/db/tmp/twig/29/29b283ca019d81da48462fc3fc3b13df910d3a8f6c33ca9056cd61ce396783ff.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/2b/2b8520169f1742ebe2ecbf51fbb1d5ad9df54cf90e5fbff6e1987da8a2ba94b8.php" afterPath="$PROJECT_DIR$/db/tmp/twig/2b/2b8520169f1742ebe2ecbf51fbb1d5ad9df54cf90e5fbff6e1987da8a2ba94b8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/31/3167aa94fc2b5d9bb1fffb5eb89530b3bbf1a8b9f34d1da24693f698b4d5ca4e.php" afterPath="$PROJECT_DIR$/db/tmp/twig/31/3167aa94fc2b5d9bb1fffb5eb89530b3bbf1a8b9f34d1da24693f698b4d5ca4e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/34/34273d293c315f66da49ed1908839fd84e4f3644f9ed599ccbcd89de9f4934c9.php" afterPath="$PROJECT_DIR$/db/tmp/twig/34/34273d293c315f66da49ed1908839fd84e4f3644f9ed599ccbcd89de9f4934c9.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/34/34665472365fb097360df01c0154a7b3cc629e5de8f4af2fe0ac34cf0bcddc64.php" afterPath="$PROJECT_DIR$/db/tmp/twig/34/34665472365fb097360df01c0154a7b3cc629e5de8f4af2fe0ac34cf0bcddc64.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/3e/3e741613edc5e8ff26a9688a531fe49356675997b56d58aa45a50c64c5a8cd04.php" afterPath="$PROJECT_DIR$/db/tmp/twig/3e/3e741613edc5e8ff26a9688a531fe49356675997b56d58aa45a50c64c5a8cd04.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/43/4382c077f009999efaa33bbb061042c14d73f8a31fed6483de05889552ce1c5d.php" afterPath="$PROJECT_DIR$/db/tmp/twig/43/4382c077f009999efaa33bbb061042c14d73f8a31fed6483de05889552ce1c5d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/43/43cd04f09538f9b67db51dc0091b119a42967d22ef668495481b19aacd180026.php" afterPath="$PROJECT_DIR$/db/tmp/twig/43/43cd04f09538f9b67db51dc0091b119a42967d22ef668495481b19aacd180026.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/47/47d3b6b9cbb4f6d6892d689e329b20706b021af811f45a430904a64f89520bbf.php" afterPath="$PROJECT_DIR$/db/tmp/twig/47/47d3b6b9cbb4f6d6892d689e329b20706b021af811f45a430904a64f89520bbf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/4e/4e99f83b49b94f89828c467d73f7729446e9b553864b4e7bba2db3bc1434df74.php" afterPath="$PROJECT_DIR$/db/tmp/twig/4e/4e99f83b49b94f89828c467d73f7729446e9b553864b4e7bba2db3bc1434df74.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/5b/5b76192ce1f52a71918385ad9ca29df3d5c4abe8d541e446a4987dfbda8f15ba.php" afterPath="$PROJECT_DIR$/db/tmp/twig/5b/5b76192ce1f52a71918385ad9ca29df3d5c4abe8d541e446a4987dfbda8f15ba.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/60/60a9d4ca2c1733c12a7b80786d3149959d9bcd57d2c4fe93fda147923aa251eb.php" afterPath="$PROJECT_DIR$/db/tmp/twig/60/60a9d4ca2c1733c12a7b80786d3149959d9bcd57d2c4fe93fda147923aa251eb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/60/60b058ea5908758ccaa92e2759a4ffe3bcf2d9944d8d1652790ce5044cb2e342.php" afterPath="$PROJECT_DIR$/db/tmp/twig/60/60b058ea5908758ccaa92e2759a4ffe3bcf2d9944d8d1652790ce5044cb2e342.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/63/638e1599e869649c2d9660d6ce4683aa6599fd1de57f808cb2b6000b5a2f6750.php" afterPath="$PROJECT_DIR$/db/tmp/twig/63/638e1599e869649c2d9660d6ce4683aa6599fd1de57f808cb2b6000b5a2f6750.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/65/6562def66143f0109c9fe4f140a916a9c86b243225ec940adbe1de6b7c3203a5.php" afterPath="$PROJECT_DIR$/db/tmp/twig/65/6562def66143f0109c9fe4f140a916a9c86b243225ec940adbe1de6b7c3203a5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/71/71e952f92fa3f548d483bf04e9f639f5cba7763d7c1bd3c5fca4e3b79ca2a818.php" afterPath="$PROJECT_DIR$/db/tmp/twig/71/71e952f92fa3f548d483bf04e9f639f5cba7763d7c1bd3c5fca4e3b79ca2a818.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/7e/7e3f1c43ec22d0e30941cfeceb159feab5830d5794b90952cd86639b098bcd21.php" afterPath="$PROJECT_DIR$/db/tmp/twig/7e/7e3f1c43ec22d0e30941cfeceb159feab5830d5794b90952cd86639b098bcd21.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/83/8301d02bd2500b3a0d113f440a7c809010bdb7215c91e997ab54cd7bbaa7f57c.php" afterPath="$PROJECT_DIR$/db/tmp/twig/83/8301d02bd2500b3a0d113f440a7c809010bdb7215c91e997ab54cd7bbaa7f57c.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/8c/8cb0851f5f7e400c25cc1cfce14ec7223123d7fc254b49b627cec87f9dfbc45b.php" afterPath="$PROJECT_DIR$/db/tmp/twig/8c/8cb0851f5f7e400c25cc1cfce14ec7223123d7fc254b49b627cec87f9dfbc45b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/8c/8cfe52fad640fea6864724a83310f083ed04d910e3f9c65e59bc16c11bf1fe2b.php" afterPath="$PROJECT_DIR$/db/tmp/twig/8c/8cfe52fad640fea6864724a83310f083ed04d910e3f9c65e59bc16c11bf1fe2b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/8f/8f81e342e5d3c432d158b3a321eb4286d01cdc358fab8014dbc01f8d7a5cd41c.php" afterPath="$PROJECT_DIR$/db/tmp/twig/8f/8f81e342e5d3c432d158b3a321eb4286d01cdc358fab8014dbc01f8d7a5cd41c.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/9a/9aa35e4346bfa4dba1d6e73ec2eff2e9c8e1b4a422b04d5c7a1c510c4a8bb642.php" afterPath="$PROJECT_DIR$/db/tmp/twig/9a/9aa35e4346bfa4dba1d6e73ec2eff2e9c8e1b4a422b04d5c7a1c510c4a8bb642.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/9c/9c559364f04cbf51520847d08def978cc1cc80974dd964d09e7593b17c82525b.php" afterPath="$PROJECT_DIR$/db/tmp/twig/9c/9c559364f04cbf51520847d08def978cc1cc80974dd964d09e7593b17c82525b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/9d/9d56c7b1b3e49ed82a485b3f8aaacc7ac9eb60526334cbd08f5cb62fe20fdaef.php" afterPath="$PROJECT_DIR$/db/tmp/twig/9d/9d56c7b1b3e49ed82a485b3f8aaacc7ac9eb60526334cbd08f5cb62fe20fdaef.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/a3/a32462770f4a68a6845d610322518f6698996ebbb0f7075a9f5472c6dbe1918d.php" afterPath="$PROJECT_DIR$/db/tmp/twig/a3/a32462770f4a68a6845d610322518f6698996ebbb0f7075a9f5472c6dbe1918d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/a8/a8080a07916ccfa716fd5698e00c17649550bceadf094fc634a4b3d0820f719c.php" afterPath="$PROJECT_DIR$/db/tmp/twig/a8/a8080a07916ccfa716fd5698e00c17649550bceadf094fc634a4b3d0820f719c.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/ac/ac24f26c6f26a5a480072a63aec02feff88914e6b34251d1591642a19c3a6d61.php" afterPath="$PROJECT_DIR$/db/tmp/twig/ac/ac24f26c6f26a5a480072a63aec02feff88914e6b34251d1591642a19c3a6d61.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/ac/acc08559cd04a0824dad96f5504298c1232c2850e139e3c91a0d8e67346aeec5.php" afterPath="$PROJECT_DIR$/db/tmp/twig/ac/acc08559cd04a0824dad96f5504298c1232c2850e139e3c91a0d8e67346aeec5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/b2/b2f019f343162c440e77f348f6609bc21c51cb3f36351d450209b961ecbde146.php" afterPath="$PROJECT_DIR$/db/tmp/twig/b2/b2f019f343162c440e77f348f6609bc21c51cb3f36351d450209b961ecbde146.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/b8/b86ba96f948986966ffc916dc5b0fa2eed5251fa4a185328d427c135c7cae128.php" afterPath="$PROJECT_DIR$/db/tmp/twig/b8/b86ba96f948986966ffc916dc5b0fa2eed5251fa4a185328d427c135c7cae128.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/c4/c4f76a50a9b65c1507c1bd35a8d32535a64a292ad0d5f57c443835ea1437c970.php" afterPath="$PROJECT_DIR$/db/tmp/twig/c4/c4f76a50a9b65c1507c1bd35a8d32535a64a292ad0d5f57c443835ea1437c970.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/ca/ca4e9f36b3a3abff1fe1c633b12973db3d8d65c6d4864b5e961d49e6f19a1731.php" afterPath="$PROJECT_DIR$/db/tmp/twig/ca/ca4e9f36b3a3abff1fe1c633b12973db3d8d65c6d4864b5e961d49e6f19a1731.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/d1/d19525b0ad19d2dc4145fc7f55178ae5f8bf0c9ea28d43422febb6b170db51af.php" afterPath="$PROJECT_DIR$/db/tmp/twig/d1/d19525b0ad19d2dc4145fc7f55178ae5f8bf0c9ea28d43422febb6b170db51af.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/d2/d2d9311d040652423e76aca189a03833eea60688c7289963eaf3a1b15557eb54.php" afterPath="$PROJECT_DIR$/db/tmp/twig/d2/d2d9311d040652423e76aca189a03833eea60688c7289963eaf3a1b15557eb54.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/d4/d49b804c743ed4e43abd5aaca939be3929e153e41b69e903616f4d3a8412e280.php" afterPath="$PROJECT_DIR$/db/tmp/twig/d4/d49b804c743ed4e43abd5aaca939be3929e153e41b69e903616f4d3a8412e280.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/d7/d72b2f5d442015f9b0ea9872be3af4ba52c97208730f21783af46f66e12fe084.php" afterPath="$PROJECT_DIR$/db/tmp/twig/d7/d72b2f5d442015f9b0ea9872be3af4ba52c97208730f21783af46f66e12fe084.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/db/db0c6ad08a5fba6f5c3014c4fcca11352ddb8796fded564d44a544bf56f21f20.php" afterPath="$PROJECT_DIR$/db/tmp/twig/db/db0c6ad08a5fba6f5c3014c4fcca11352ddb8796fded564d44a544bf56f21f20.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/e7/e7d877cb943acf13347b2dc0df1476d978078d02ad41c440b23b18a723ec744f.php" afterPath="$PROJECT_DIR$/db/tmp/twig/e7/e7d877cb943acf13347b2dc0df1476d978078d02ad41c440b23b18a723ec744f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/e9/e9c5a7dd3a7341bd63c03df3c8fd0ddec664ff85bd68402a5d2ecb1b57e812c1.php" afterPath="$PROJECT_DIR$/db/tmp/twig/e9/e9c5a7dd3a7341bd63c03df3c8fd0ddec664ff85bd68402a5d2ecb1b57e812c1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/f4/f424d42fd15967958efc708155d724b336b307ceeb48e5b5f1fc3209087c37a8.php" afterPath="$PROJECT_DIR$/db/tmp/twig/f4/f424d42fd15967958efc708155d724b336b307ceeb48e5b5f1fc3209087c37a8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tmp/twig/f7/f7be9814127bf420cac78cf8e7d20d62d84639de190112fe505e4a5500c517ba.php" afterPath="$PROJECT_DIR$/db/tmp/twig/f7/f7be9814127bf420cac78cf8e7d20d62d84639de190112fe505e4a5500c517ba.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/main/Main.jsx" afterPath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/main/Main.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/db/vendor/bacon/bacon-qr-code/" />
     <ignored path="$PROJECT_DIR$/db/vendor/composer/" />
@@ -101,21 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="orders_management.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="orders_management.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/orders_management.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="52" column="45" lean-forward="false" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+            <state relative-caret-position="832">
+              <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -124,33 +68,11 @@
       <file leaf-file-name="ApiController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            <state relative-caret-position="560">
+              <caret line="28" column="11" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="28" selection-end-column="11" />
               <folding>
-                <element signature="e#40#56#0#PHP" expanded="true" />
+                <element signature="e#40#54#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/main/Main.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Products.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/products/Products.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -163,13 +85,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/orders_management.blade.php" />
         <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/app/App.jsx" />
         <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/index.js" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/routes/api.php" />
+        <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/products/Products.jsx" />
+        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/database/migrations/2020_03_03_112056_create_orders_table.php" />
+        <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/orders/Orders.jsx" />
         <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ApiController.php" />
         <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/main/Main.jsx" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/products/Products.jsx" />
+        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/routes/api.php" />
+        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/orders_management.blade.php" />
       </list>
     </option>
   </component>
@@ -217,10 +141,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="17" />
-    <option name="y" value="-2" />
-    <option name="width" value="1482" />
-    <option name="height" value="1044" />
+    <option name="x" value="309" />
+    <option name="y" value="142" />
+    <option name="width" value="1216" />
+    <option name="height" value="657" />
   </component>
   <component name="ProjectId" id="1YaIHW9iIGJ4XaIYGYGEtyO6r7Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -278,6 +202,36 @@
               <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skateboards" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="skateboards" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="baigiamasis_projektas_backend" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -313,6 +267,14 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="baigiamasis_projektas_frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="orders" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
@@ -393,24 +355,24 @@
       <workItem from="1583265680123" duration="7000" />
       <workItem from="1583265713741" duration="5131000" />
       <workItem from="1583341539937" duration="11044000" />
-      <workItem from="1583388942384" duration="7510000" />
+      <workItem from="1583388942384" duration="11946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7510000" />
+    <option name="totallyTimeSpent" value="11946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20842217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20842217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15434782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15434782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -421,6 +383,25 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15434782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20842217" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -463,26 +444,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/orders_management.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="52" column="45" lean-forward="false" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -497,24 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/app/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -523,23 +470,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ApiController.php">
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/main/Main.jsx">
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/database/migrations/2020_03_03_112056_create_orders_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -547,6 +506,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="39" column="11" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="39" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/orders/Orders.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="83" column="22" lean-forward="false" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/app/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/main/Main.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="11" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <element signature="e#40#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/orders_management.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding />
         </state>
       </provider>

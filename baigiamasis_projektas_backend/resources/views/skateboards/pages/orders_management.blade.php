@@ -32,34 +32,39 @@
                                 <td>{{ $order->productQty }}</td>
                                 <td>{{ $order->OrderSum }}</td>
                                 <td>{{ $order->orderStatus }}</td>
-                                <td><button type="button" name="submit" class="btn btn-danger" data-toggle="modal" data-target="#ticket">Keisti uzsakymo busena</button></td>
+                                <td><button type="button" name="submit" class="btn btn-danger" data-toggle="modal" data-target="#order{{$order->id}}">Keisti uzsakymo busena</button></td>
                         </tr>
                         @endforeach
                         </tbody>
                     </table>
-                    <form method = "POST" action="/order_status_update/{{$order->id}}" enctype="multipart/form-data">
-                        @csrf
-                    <div class="modal fade bd-example-modal-lg" id = "ticket" tabindex="-1" role="dialog">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">Pasirinkite norima statusa (matote pazymeta esamo uzsakymo statusa)</h5>
-                                </div>
-                                <div class="modal-body">
-                                    <select name="orderStatus">
-                                        <option>{{ $order->orderStatus }}</option>
-                                        <option>Processing</option>
-                                        <option>Canceled</option>
-                                    </select>
-                                </div>
-                                <div class = "modal-footer">
-                                    <button type="submit" name="submit" class="btn btn-primary">Patvirtinti</button>
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Uždaryti langą</button>
+                    @foreach($orders as $order)
+                        <form method = "POST" action="/order_status_update/{{$order->id}}" enctype="multipart/form-data">
+                            @csrf
+                            <div class="modal fade bd-example-modal-lg" id = "order{{$order->id}}" tabindex="-1" role="dialog">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Pasirinkite norima statusa (matote pazymeta esamo uzsakymo statusa)</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div>
+                                                <input type="radio" name="orderStatus" value="processing">
+                                                <label for="male">Processing</label><br>
+                                                <input type="radio" name="orderStatus" value="canceled">
+                                                <label for="male">Canceled</label><br>
+                                                <input type="radio" name="orderStatus" value="paid">
+                                                <label for="male">Paid</label><br>
+                                            </div>
+                                        </div>
+                                        <div class = "modal-footer">
+                                            <button type="submit" name="submit" class="btn btn-primary">Patvirtinti</button>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Uždaryti langą</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    </form>
+                        </form>
+                    @endforeach
                 </div>
             </div>
         </div>

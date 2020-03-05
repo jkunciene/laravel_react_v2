@@ -18,7 +18,7 @@ class CreateOrdersTable extends Migration
             $table->string('buyerName');
             $table->string('buyerSurname');
             $table->string('buyerAddress');
-            $table->string('orderStatus');
+            $table->string('orderStatus')->default('procesing');
             $table->integer('productId');
             $table->integer('productQty');
             $table->decimal('OrderSum', 5, 2);
