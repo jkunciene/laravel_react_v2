@@ -13,9 +13,6 @@ function Navigation() {
         <div className="navbar-nav">
             <a className="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
             <a className="nav-item nav-link" href="/about">Apie</a>
-
-            <Link to="/product" className="nav-item nav-link">Product</Link>
-
         </div>
     </div>
 </nav>

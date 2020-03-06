@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from "react-router-dom"
 
 class Product extends Component{
     constructor(props){
@@ -8,6 +9,7 @@ class Product extends Component{
     componentDidMount(){
 
         fetch(`http://skateboard.test/api/product/${this.props.match.params.id}`)
+
             .then(response => response.json())
             .then(
                 data=>{
@@ -18,7 +20,7 @@ class Product extends Component{
                 })
     }
     render(){
-
+const productId = localStorage.setItem('id', this.state.product.id);
         return(
             <main>
                 <div className="container">
@@ -29,8 +31,9 @@ class Product extends Component{
                                 <h4 className="card-title">
                                     <a href="#">{this.state.product.name}</a>
                                 </h4>
+                                <p className="card-text">Product ID {this.state.product.id}</p>
                                 <p className="card-text">{this.state.product.description}</p>
-                                <button  type="submit" class="btn btn-info">Pirkti...</button>
+                                <Link to="/orders" type="submit" className="btn btn-info">Pirkti...</Link>
                             </div>
                         </div>
                     </div>

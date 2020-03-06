@@ -1,4 +1,6 @@
 import React, {Component} from "react";
+import Product from "../product/Product"
+import {Link} from "react-router-dom"
 
 class Orders extends Component {
     constructor(props) {
@@ -49,6 +51,7 @@ class Orders extends Component {
     }
 
     render() {
+        var atsinestas = localStorage.getItem('id');
         return (
             <form onSubmit={this.handleSubmit}>
                 <label>
@@ -64,8 +67,8 @@ class Orders extends Component {
                     <input type="text" value={this.state.buyerAddress} onChange={this.handleBuyerAddress} />
                 </label>
                 <label>
-                    Product ID:
-                    <input type="text" value={this.state.productId} onChange={this.handleProductId} />
+                    ProductId
+                    <input type="text" value={this.state.productId}  onChange={this.handleProductId} />
                 </label>
                 <label>
                     Product Quantity:

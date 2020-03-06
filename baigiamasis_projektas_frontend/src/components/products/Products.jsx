@@ -23,9 +23,9 @@ function Products(props) {
 
     })
     return (
-            <div className="row">
-                {products}
-            </div>
+        <div className="row">
+            {products}
+        </div>
     );
 }
 

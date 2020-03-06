@@ -10,6 +10,7 @@ import {
     Route,
     Link
 } from "react-router-dom";
+import Orders from "../orders/Orders";
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
                             <About/>
                         </Route>
                         <Route path="/product/:id" component={Product}/>
+                        <Route path="/orders" >
+                            <Orders/>
+                        </Route>
                     </Switch>
                 </div>
             </Router>
