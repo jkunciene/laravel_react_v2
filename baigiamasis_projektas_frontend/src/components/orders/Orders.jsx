@@ -3,15 +3,17 @@ import Product from "../product/Product"
 import {Link} from "react-router-dom"
 
 class Orders extends Component {
+
     constructor(props) {
         super(props);
-        this.state = {buyerName: '', buyerSurname:'', buyerAddress:'', productId:'',
+        const atsinestas = localStorage.getItem('id');
+        this.state = {buyerName: '', buyerSurname:'', buyerAddress:'',productId: atsinestas,
             productQty:'', OrderSum:''};
 
         this.handleBuyerName = this.handleBuyerName.bind(this);
         this.handleBuyerSurname = this.handleBuyerSurname.bind(this);
         this.handleBuyerAddress = this.handleBuyerAddress.bind(this);
-        this.handleProductId = this.handleProductId.bind(this);
+
         this.handleProductQty = this.handleProductQty.bind(this);
         this.handleOrderSum = this.handleOrderSum.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -29,9 +31,6 @@ class Orders extends Component {
         this.setState({buyerAddress: event.target.value});
     }
 
-    handleProductId(event) {
-        this.setState({productId: event.target.value});
-    }
 
     handleProductQty(event) {
         this.setState({productQty: event.target.value});
@@ -51,7 +50,7 @@ class Orders extends Component {
     }
 
     render() {
-        var atsinestas = localStorage.getItem('id');
+
         return (
             <form onSubmit={this.handleSubmit}>
                 <label>
@@ -66,10 +65,7 @@ class Orders extends Component {
                     Buyer Address:
                     <input type="text" value={this.state.buyerAddress} onChange={this.handleBuyerAddress} />
                 </label>
-                <label>
-                    ProductId
-                    <input type="text" value={this.state.productId}  onChange={this.handleProductId} />
-                </label>
+
                 <label>
                     Product Quantity:
                     <input type="text" value={this.state.productQty} onChange={this.handleProductQty} />
