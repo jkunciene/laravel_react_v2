@@ -17,6 +17,10 @@ class ApiController extends Controller
         return $products;
     }
 
+    public function get_posts_by_id($id){
+        return Product::find($id);
+
+    }
     public function storeOrder(Request $request){
 
         Order::create([

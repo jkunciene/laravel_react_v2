@@ -24,14 +24,12 @@ class Main extends Component{
 
         return(
             <main>
-                <div className="row card-row">
-                    <div className="card container card-container">
-                        <div className="card-header">
+                <div className="container">
+
                             <Products products={this.state.allProducts}/>
                             <Orders/>
-                        </div>
 
-                    </div>
+
                 </div>
 
             </main>

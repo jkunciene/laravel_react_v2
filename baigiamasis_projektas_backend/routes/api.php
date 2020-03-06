@@ -20,3 +20,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::get('all-products', 'ApiController@allProducts');
 
 Route::post('store-orders', 'ApiController@storeOrder');
+
+Route::get('/product/{id}', 'ApiController@get_posts_by_id');
