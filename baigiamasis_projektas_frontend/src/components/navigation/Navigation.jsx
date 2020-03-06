@@ -1,6 +1,5 @@
 import React, {Component} from "react"
-import Link from "react-router-dom"
-
+import {Link} from "react-router-dom"
 
 function Navigation() {
     return (
@@ -14,7 +13,8 @@ function Navigation() {
         <div className="navbar-nav">
             <a className="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
             <a className="nav-item nav-link" href="/about">Apie</a>
-            <a className="nav-item nav-link" href="/">Contact</a>
+
+            <Link to="/product" className="nav-item nav-link">Product</Link>
 
         </div>
     </div>

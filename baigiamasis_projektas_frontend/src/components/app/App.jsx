@@ -1,6 +1,7 @@
 import React from 'react';
 import Main from "../main/Main";
 import About from "../about/About"
+import Product from "../product/Product"
 import Navigation from "../navigation/Navigation"
 
 import {
@@ -10,11 +11,13 @@ import {
     Link
 } from "react-router-dom";
 
+
 function App() {
     return (
         <div className="container">
-<Navigation/>
+
             <Router>
+                <Navigation/>
                 <div>
                     <Switch>
                         <Route exact path="/">
@@ -23,11 +26,10 @@ function App() {
                         <Route path="/about">
                             <About/>
                         </Route>
+                        <Route path="/product/:id" component={Product}/>
                     </Switch>
                 </div>
             </Router>
-
-
         </div>
     );
 }
