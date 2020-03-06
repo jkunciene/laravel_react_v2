@@ -13,6 +13,14 @@ function Navigation() {
         <div className="navbar-nav">
             <a className="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
             <a className="nav-item nav-link" href="/about">Apie</a>
+            <div className="dropdown">
+                <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Kategorijos
+                </button>
+                <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a className="dropdown-item" href="/">ta</a>
+                </div>
+            </div>
         </div>
     </div>
 </nav>

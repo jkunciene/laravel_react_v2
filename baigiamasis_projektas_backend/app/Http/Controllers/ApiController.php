@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Order;
 use App\Product;
+use App\Category;
 use Illuminate\Http\Request;
 
 class ApiController extends Controller
@@ -33,6 +34,11 @@ class ApiController extends Controller
         ]);
         return response($request);
 
+    }
+    public function allCategories(){
+        $categories = Category::all();
+
+        return $categories;
     }
 
 }

@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53563d4e-eb39-4700-837e-89aac6c3f508" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/categories/Categories.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/category/Category.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/orders/Orders.jsx" afterPath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/orders/Orders.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ApiController.php" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ApiController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_backend/routes/api.php" afterPath="$PROJECT_DIR$/baigiamasis_projektas_backend/routes/api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/app/App.jsx" afterPath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/app/App.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/main/Main.jsx" afterPath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/main/Main.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/navigation/Navigation.jsx" afterPath="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/navigation/Navigation.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/db/vendor/bacon/bacon-qr-code/" />
     <ignored path="$PROJECT_DIR$/db/vendor/composer/" />
@@ -53,8 +59,8 @@
       <file leaf-file-name="Product.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/product/Product.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="33" column="89" lean-forward="false" selection-start-line="33" selection-start-column="89" selection-end-line="33" selection-end-column="89" />
+            <state relative-caret-position="440">
+              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="38" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -62,13 +68,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/app/App.jsx">
+      <file leaf-file-name="Navigation.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/navigation/Navigation.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="29" column="54" lean-forward="false" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+            <state relative-caret-position="400">
+              <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,8 +83,8 @@
       <file leaf-file-name="Orders.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/orders/Orders.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="81" lean-forward="false" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+            <state relative-caret-position="160">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -86,14 +92,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Products.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/products/Products.jsx">
+      <file leaf-file-name="Main.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/main/Main.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="460">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Categories.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/categories/Categories.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/category/Category.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,16 +135,18 @@
       <list>
         <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/database/migrations/2020_03_03_112056_create_orders_table.php" />
         <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/resources/views/skateboards/pages/orders_management.blade.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/routes/api.php" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ApiController.php" />
         <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/index.js" />
         <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/about/About.jsx" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/navigation/Navigation.jsx" />
         <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/product/Product.jsx" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/app/App.jsx" />
         <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/products/Products.jsx" />
-        <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/main/Main.jsx" />
         <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/orders/Orders.jsx" />
+        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ApiController.php" />
+        <option value="$PROJECT_DIR$/baigiamasis_projektas_backend/routes/api.php" />
+        <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/app/App.jsx" />
+        <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/navigation/Navigation.jsx" />
+        <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/main/Main.jsx" />
+        <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/category/Category.jsx" />
+        <option value="$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/categories/Categories.jsx" />
       </list>
     </option>
   </component>
@@ -302,6 +330,22 @@
               <item name="baigiamasis_projektas_frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="categories" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="baigiamasis_projektas_frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="category" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="skateboard_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skateboard_app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="baigiamasis_projektas_frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -408,7 +452,7 @@
       <workItem from="1583265713741" duration="5131000" />
       <workItem from="1583341539937" duration="11044000" />
       <workItem from="1583388942384" duration="12177000" />
-      <workItem from="1583474856330" duration="17022000" />
+      <workItem from="1583474856330" duration="20415000" />
     </task>
     <task id="LOCAL-00001" summary="veikia is api irasymas i db, isemimas is db ir parodymas print i react">
       <created>1583401980871</created>
@@ -445,17 +489,23 @@
       <option name="project" value="LOCAL" />
       <updated>1583495375872</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="orders pagal product ID paejo">
+      <created>1583496562208</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583496562208</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29199000" />
+    <option name="totallyTimeSpent" value="32592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16151386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16151386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -505,7 +555,8 @@
     <MESSAGE value="nav done" />
     <MESSAGE value="uzkrauna viena produkta" />
     <MESSAGE value="orders formoje strigau" />
-    <option name="LAST_COMMIT_MESSAGE" value="orders formoje strigau" />
+    <MESSAGE value="orders pagal product ID paejo" />
+    <option name="LAST_COMMIT_MESSAGE" value="orders pagal product ID paejo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="466" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583271564108">
@@ -547,7 +598,7 @@
         <state relative-caret-position="520">
           <caret line="28" column="11" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="28" selection-end-column="11" />
           <folding>
-            <element signature="e#40#54#0#PHP" expanded="false" />
+            <element signature="e#40#54#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -607,14 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -633,68 +676,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ApiController.php">
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/products/Products.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
-          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="e#40#54#0#PHP" expanded="false" />
-          </folding>
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/about/About.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/navigation/Navigation.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="67" lean-forward="false" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/main/Main.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/products/Products.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/app/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="29" column="54" lean-forward="false" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+        <state relative-caret-position="272">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_backend/app/Http/Controllers/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="e#40#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/category/Category.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/categories/Categories.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/main/Main.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/navigation/Navigation.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/product/Product.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="89" lean-forward="false" selection-start-line="33" selection-start-column="89" selection-end-line="33" selection-end-column="89" />
+        <state relative-caret-position="440">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="38" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -703,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/baigiamasis_projektas_frontend/src/components/orders/Orders.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="81" lean-forward="false" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+        <state relative-caret-position="160">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

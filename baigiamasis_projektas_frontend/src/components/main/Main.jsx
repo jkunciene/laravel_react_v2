@@ -6,7 +6,7 @@ import Orders from "../orders/Orders";
 class Main extends Component{
     constructor(props){
         super(props);
-        this.state = {allProducts: []};
+        this.state = {allProducts: [], allCategories: []};
     }
     componentDidMount(){
         console.log("Labas");
@@ -19,7 +19,11 @@ class Main extends Component{
                         allProducts: data
                     }, () => console.log(this.state.allProducts))
                 })
+
     }
+
+
+
     render(){
 
         return(
@@ -27,6 +31,7 @@ class Main extends Component{
                 <div className="container">
 
                             <Products products={this.state.allProducts}/>
+
 
 
                 </div>

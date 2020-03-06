@@ -18,6 +18,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('all-products', 'ApiController@allProducts');
+Route::get('all-categories', 'ApiController@allCategories');
 
 Route::post('store-orders', 'ApiController@storeOrder');
 

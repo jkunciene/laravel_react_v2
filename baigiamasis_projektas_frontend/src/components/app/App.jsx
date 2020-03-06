@@ -3,6 +3,7 @@ import Main from "../main/Main";
 import About from "../about/About"
 import Product from "../product/Product"
 import Navigation from "../navigation/Navigation"
+import Category from "../category/Category"
 
 import {
     BrowserRouter as Router,
